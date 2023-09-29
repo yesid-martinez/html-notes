@@ -21,13 +21,32 @@
 }
 
 header{
-    height: 4rem;
+    /* height: 4rem;
     width: 100vw;
     min-width: 350px;
     padding: 0 1rem;
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--primary-bg);
+    color: var(--white); */
+    height: 4rem;
+    width: 100vw;
+    min-width: 350px;
+    padding: 0 1rem;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 
     background-color: var(--primary-bg);
