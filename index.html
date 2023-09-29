@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Apuntes Yesid</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9db4ff0e93.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Develop tools</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/icxd.rip/" target="_blank">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main__container">
+        <section class="main__section">
+          <img src="html-images/html-logo.svg" alt="Logo HTML" title="Logo HTML" />
+          <div>
+            <h2>HTML</h2>
+            <p>HyperText Markup Language</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    
+
+
+
+    <div class="etiquetas__contenedor">
+      <div class="etiquetas__contenedor-h2">
+        <h2>Etiquetas &lt; &gt;</h2>
+      </div>
+      <p>
+        Las etiquetas HTML son fragmentos de código que nos permiten crear
+        elementos HTML. Los elementos son la estructura básica de HTML. Dichos
+        elementos tienen dos propiedades básicas: atributos y contenido.
+      </p>
+      <h3>Etiquetas (&lt;head&gt; &lt;/head&gt;)</h3>
+      <div class="etiquetas__grid">
+        <table>
+          <thead>
+            <tr>
+              <td>Etiqueta</td>
+              <td>Atributos</td>
+              <td>Contenido</td>
+              <td>Función</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>&lt;meta/&gt;</td>
+              <td>charset="UTF-8"</td>
+              <td>X</td>
+              <td>Permite mostrar caracteres especiales</td>
+            </tr>
+            <tr>
+              <td>&lt;title&gt; &lt;/title&gt;</td>
+              <td>X</td>
+              <td>Titulo del documento</td>
+              <td>
+                Define el titulo del documento que se muestra en la ventana del
+                browser
+              </td>
+            </tr>
+            <tr>
+              <td>&lt;link/&gt;</td>
+              <td>rel="icon" y href=""</td>
+              <td>Link hacia la imagen</td>
+              <td>
+                Permite agregar una pequeña imágen junto al titulo del documento
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div>
+          <p>
+            Para obtener un mayor posicionamiento de la página utilizamos las
+            siguientes etiquetas:
+          </p>
+          <table>
+            <thead>
+              <tr>
+                <td>Etiqueta</td>
+                <td>Atributos</td>
+                <td>Contenido</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&lt;meta/&gt;</td>
+                <td>name="keywords" y content=""</td>
+                <td>Palabras clave relacionadas con la página</td>
+              </tr>
+              <tr>
+                <td>&lt;meta/&gt;</td>
+                <td>name="description" y content=""</td>
+                <td>Descripción de la página</td>
+              </tr>
+              <tr>
+                <td>&lt;meta/&gt;</td>
+                <td>name="author" y content=""</td>
+                <td>Nombre autor</td>
+              </tr>
+              <tr>
+                <td>&lt;meta/&gt;</td>
+                <td>name="robots" y content=""</td>
+                <td>index / noindex</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <h3>Etiquetas (&lt;body&gt; &lt;/body&gt;)</h3>
+      <table>
+        <thead>
+          <tr>
+            <td>Etiqueta</td>
+            <td>Atributos</td>
+            <td>Contenido</td>
+            <td>Función</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&lt;header&gt; &lt;/header&gt;</td>
+            <td>X</td>
+            <td>Undefined</td>
+            <td>Encabezado de la página</td>
+          </tr>
+          <tr>
+            <td>&lt;nav&gt; &lt;/nav&gt;</td>
+            <td>X</td>
+            <td>Undefined</td>
+            <td>Barra de navegación, se utiliza con listal "ul"</td>
+          </tr>
+          <tr>
+            <td>&lt;article&gt; &lt;/article&gt;</td>
+            <td>X</td>
+            <td>Undefined</td>
+            <td>Indica un articulo, se puede dividir en secciones</td>
+          </tr>
+          <tr>
+            <td>&lt;section&gt; &lt;/section&gt;</td>
+            <td>X</td>
+            <td>Undefined</td>
+            <td>Indica la sección de un articulo</td>
+          </tr>
+          <tr>
+            <td>&lt;div&gt; &lt;/div&gt;</td>
+            <td>X</td>
+            <td>Undefined</td>
+            <td>Definir un bloque de contenido o sección de la página</td>
+          </tr>
+          <tr>
+            <td>&lt;span&gt; &lt;/span&gt;</td>
+            <td>X</td>
+            <td>Undefined</td>
+            <td>
+              Contenedor en línea. Permite aplicar estilo al texto o agrupar
+              elementos en línea
+            </td>
+          </tr>
+          <tr>
+            <td>&lt;main&gt; &lt;/main&gt;</td>
+            <td>X</td>
+            <td>Undefined</td>
+            <td>Representa el contenido principal de la página</td>
+          </tr>
+          <tr>
+            <td>&lt;hr/&gt;</td>
+            <td>X</td>
+            <td>X</td>
+            <td>
+              Representa un cambio de tema entre párrafos (línea horizontal)
+            </td>
+          </tr>
+          <tr>
+            <td>&lt;details&gt; &lt;/details&gt;</td>
+            <td>X</td>
+            <td>&lt;summary&gt; &lt;/summary&gt;</td>
+            <td>
+              Es usada como un widget de revelación a través del cual el usuario
+              puede obtener información adicional
+            </td>
+          </tr>
+          <tr>
+            <td>&lt;summary&gt; &lt;/summary&gt;</td>
+            <td>X</td>
+            <td>Titulo</td>
+            <td>
+              Define un texto visible para la etiqueta 'details'. La usamos con
+              un párrafo hermano de esta etiqueta
+            </td>
+          </tr>
+          <!-- <details>
+              <summary>Titulo</summary>
+              <p>Aquí iría el contenido</p>
+          </details> -->
+          <tr>
+            <td>&lt;fieldset&gt; &lt;/fieldset&gt;</td>
+            <td>X</td>
+            <td>Inputs y/o &lt;legend&gt; &lt;/legend&gt;</td>
+            <td>Agrupa los elementos de un input</td>
+          </tr>
+          <tr>
+            <td>&lt;legend&gt; &lt;/legend&gt;</td>
+            <td>X</td>
+            <td>Titulo</td>
+            <td>
+              Nombra un grupo creado con 'fieldset'. Añade un titulo aclaratorio
+              sobre qué tipo de información se está agrupando en el recuadro
+            </td>
+          </tr>
+          <!-- <fieldset>
+              <legend>Login</legend>
+              <ul>
+                <li>Usuario</li>
+                <li>Password</li>
+              </ul>
+            </fieldset> -->
+          <tr>
+            <td>&lt;aside&gt; &lt;/aside&gt;</td>
+            <td>X</td>
+            <td>Undefined</td>
+            <td>
+              Articulo secundario o contenido con menor relevancia. Representa
+              una sección de una página que consiste en contenido que está
+              indirectamente relacionado con el contenido principal del
+              documento
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- &lt;m&gt; &lt;/m&gt;
+  
+        <h3>Figure y figcaption</h3>
+        <p>
+          La etiqueta 'figure' representa contenido independiente. Por lo
+          general, se trata de una imagen, una ilustración, un diagrama, un
+          fragmento de código, o un esquema al que se hace referencia en el
+          texto principal, pero que se puede mover a otra página o a un apéndice
+          sin que afecte al flujo principal.
+        </p>
+        <p>
+          La etiqueta 'figcaption' representa un subtítulo o leyenda asociado al
+          contenido del elemento padre 'figure', pudiendo ser colocado como
+          primer o último hijo. Es importante destacar que el elemento
+          'figcaption' es opcional.
+        </p> -->
+      <h3>Etiquetas de texto</h3>
+      <table>
+        <thead>
+          <tr>
+            <td>Etiqueta</td>
+            <td>Atributos</td>
+            <td>Contenido</td>
+            <td>Función</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&lt;p&gt; &lt;/p&gt;</td>
+            <td>X</td>
+            <td>Undefined</td>
+            <td>Indica un párrafo</td>
+          </tr>
+          <tr>
+            <td>&lt;b&gt; &lt;/b&gt;</td>
+            <td>X</td>
+            <td>Undefined</td>
+            <td>Modificador de texto, <b>negrita</b></td>
+          </tr>
+          <tr>
+            <td>&lt;i&gt; &lt;/i&gt;</td>
+            <td>X</td>
+            <td>Undefined</td>
+            <td>Modificador de texto, <i>italica</i></td>
+          </tr>
+          <tr>
+            <td>&lt;strike&gt; &lt;/strike&gt;</td>
+            <td>X</td>
+            <td>Undefined</td>
+            <td>Modificador de texto, <strike>tachada</strike></td>
+          </tr>
+        </tbody>
+        <tr>
+          <td>&lt;small&gt; &lt;/small&gt;</td>
+          <td>X</td>
+          <td>Undefined</td>
+          <td>Modificador de texto, <small>pequeña</small></td>
+        </tr>
+        <tr>
+          <td>&lt;h1&gt; &lt;/h1&gt;</td>
+          <td>X</td>
+          <td>Undefined</td>
+          <td>Titulo del documento. Se recomienda un solo uso por página</td>
+        </tr>
+        <tr>
+          <td>&lt;h2&gt;, &lt;h3&gt; ... &lt;h6&gt; &lt;/h6&gt;</td>
+          <td>X</td>
+          <td>Undefined</td>
+          <td>Subtitulos del documento</td>
+        </tr>
+        <tr>
+          <td>&lt;br/&gt;</td>
+          <td>X</td>
+          <td>X</td>
+          <td>
+            Produce un salto de línea en el texto. Es útil en situaciones donde
+            la división de las líneas es significante
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="listas__contenedor">
+      <h2>Listas</h2>
+      <p>
+        Tenemos dos tipos de listas: Listas ordenadas y desordenadas. <br />
+        Para crear una lista usamos las etiquetas &lt;ul&gt; &lt;/ul&gt;
+        (Unordered list) o &lt;ol&gt; &lt;/ol&gt; (Ordered list)<br />
+        Dentro de estas etiqueta usamos la etiqueta &lt;li&gt; &lt;/li&gt; para
+        cada elemento que ingresemos a la lista
+      </p>
+      <div>
+        <h3>Unordered list</h3>
+        <ul>
+          <li>Elemento 1</li>
+          <li>Elemento 2</li>
+          <li>Elemento 3</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Ordered list</h3>
+        <ol>
+          <li>Elemento 1</li>
+          <li>Elemento 2</li>
+          <li>Elemento 3</li>
+        </ol>
+      </div>
+      <p>Podemos modificar el estilo de las listas.</p>
+    </div>
+    <div class="contenedor__formulas">
+      <h2>Forms / Input</h2>
+      <p>
+        El elemento 'form' representa una sección de un documento que contiene
+        controles interactivos que permiten a un usuario enviar información a un
+        servidor web.
+      </p>
+      <p>
+        Usamos este elemento con <b>'form'</b> y dentro del form usamos los
+        inputs.
+      </p>
+      <p>
+        Un input es un ingreso de datos por parte del usuario, el cual nos
+        permite recibir los datos y programar una acción con estos, usualmente
+        lo usamos en formularios.
+      </p>
+      <p>Usamos inputs con <b>'input type="tipo_de_input"'</b>.</p>
+      <p>Para hacer un input obligatorio usamos <b>'required=""'</b></p>
+      <p>
+        La etiqueta 'form' tiene el atributo 'action' que nos permite dar un
+        valor para indicar información sobre ese input al backend
+      </p>
+      <p>
+        La etiqueta 'label' con el atributo 'for' dandole a este como valor el
+        id del input nos permite darle un titulo a ese input, permitiendo que
+        este también nos permita entrar al input.
+      </p>
+      <form>
+        <label for="inputNombre">Nombre</label>
+        <input type="text" id="inputNombre" />
+      </form>
+      <p>Aquí algunos ejemplos de inputs:</p>
+      <div class="formulas__ejemplos-input">
+        <form>
+          <label for="textInput">Text input</label>
+          <input type="text" id="textInput" />
+          <label for="passwordInput">Password input</label>
+          <input type="password" required="" id="passwordInput" />
+          <label for="emailInput">Email input</label>
+          <input type="email" id="emailInput" />
+          <label for="numberInput">Number input</label>
+          <input type="number" id="numberInput" />
+          <label for="colorInput">Color input</label>
+          <input type="color" id="colorInput" />
+          <label for="rangeInput">Range input</label>
+          <input type="range" min="1" max="100" id="rangeInput" />
+          <label for="dateInput">Date input</label>
+          <input type="date" id="dateInput" />
+          <label for="timeInput">Time input</label>
+          <input type="time" id="timeInput" />
+          <label for="hiddenInput">Hidden input</label>
+          <input
+            type="hidden"
+            name="csrftoken"
+            value="clave_dada_por_el_servidor"
+            id="hiddenInput"
+          />
+
+          <p>Input checkbox</p>
+          <fieldset>
+            <input type="checkbox" name="" id="ejemplo1_checkbox" checked />
+            <label for="ejemplo_checkbox">Ejemplo 1</label>
+            <input type="checkbox" name="" id="ejemplo2_checkbox" />
+            <label for="ejemplo_checkbox">Ejemplo 2</label>
+            <input type="checkbox" name="" id="ejemplo3_checkbox" />
+            <label for="ejemplo_checkbox">Ejemplo 3</label>
+          </fieldset>
+          <p>
+            Input radio (Para seleccionar solo una opción debo darle el atributo
+            name a los inputs para relacionarlos y con el atributo checked le
+            damos un valor por defecto)
+          </p>
+          <fieldset>
+            <label for="inpOpt1">Opción 1</label>
+            <input type="radio" id="inpOpt1" />
+            <label for="inpOpt2">Opción 2</label>
+            <input type="radio" id="inpOpt2" />
+            <label for="inpOpt3">Opción 3</label>
+            <input type="radio" id="inpOpt3" checked />
+          </fieldset>
+          <fieldset>
+            <label for="inpOpt1">Opción 1</label>
+            <input type="radio" name="radioInputExample" id="inpOpt1" />
+            <label for="inpOpt2">Opción 2</label>
+            <input type="radio" name="radioInputExample" id="inpOpt2" checked />
+            <label for="inpOpt3">Opción 3</label>
+            <input type="radio" name="radioInputExample" id="inpOpt3" />
+          </fieldset>
+          <p>Input reset</p>
+          <input type="reset" />
+          <p>
+            Input Submit (Para enviar la información al servidor, permite la
+            etiqueta 'value')
+          </p>
+          <input type="submit" />
+          <p>
+            Input button (También sirve para enviar información al servidor)
+          </p>
+          <input type="button" value="Botón" />
+          <p>Hay más tipos de inputs, pero estos son los más comunes.</p>
+          <br />
+          <h4 style="color: red">Quitar este 'br'</h4>
+          <p>
+            Con el atributo <b>'placeholder="texto"'</b> podemos tener un texto
+            por defecto dentro del input que no afecta el contenido:
+          </p>
+          <input type="text" placeholder="Ingrese su nombre" />
+          <p>
+            Podemos darle acciones al button, por ejemplo un
+            <b>alert</b> (Aunque se puede, no es recomendable darle acciones
+            desde el propio archivo HTML)
+          </p>
+          <input
+            type="button"
+            onclick="alert('Hi, have a good day!')"
+            value="Alert button"
+          />
+          <h4 style="color: red">Quitar este 'br'</h4>
+          <br />
+          <p>
+            Podemos poner un area para texto (Similar a un input type text) con
+            la etiqueta 'textarea' y podemos darle los atributos 'cols'
+            (Cantidad de caracteres que deseemos por fila) y 'rows' (Cantidad de
+            filas que queremos en el textarea) para ajustar el tamaño del
+            textarea.
+          </p>
+          <textarea cols="60" rows="10">Text area</textarea>
+          <p>Para quitar la opcion de resize usamos: resize: none</p>
+          <textarea style="resize: none">Text area</textarea>
+        </form>
+      </div>
+      <p>
+        También tenemos la opción de hacer una lista de selección en el
+        formulario mediante la etiqueta 'select' indicandole con la etiqueta
+        'option' la cantidad de opciones que deseemos.
+      </p>
+      <label for="selectExample">Opciones</label>
+      <select id="selectExample">
+        <option value="opcion1">Opción 1</option>
+        <option value="opcion2">Opción 2</option>
+        <option value="opcion3">Opción 3</option>
+      </select>
+      <p>
+        Y como en los inputs con checked, podemos darle el atributo 'selected'
+        para elegir un valor por defecto.
+      </p>
+      <label for="selectExample">Opciones</label>
+      <select id="selectExample">
+        <option value="opcion1">Opción 1</option>
+        <option value="opcion2">Opción 2</option>
+        <option value="opcion3" selected>Opción 3</option>
+      </select>
+    </div>
+    <div class="contenedor__enlaces">
+      <h2>Enlaces</h2>
+      <div class="enlaces__iframe">
+        <h3>iframe</h3>
+        <p>
+          El elemento 'iframe' representa un contexto de navegación anidado, el
+          cual permite incrustrar otra página HTML en la página actual (Nos
+          permite ingresar contenido de otras páginas web y darle atributos con
+          <b>'iframe src="link" iframe'</b>)
+        </p>
+        <p>Por ejemplo, un video de youtube:</p>
+        <p>
+          Para agregarlo usamos
+          <b>'iframe src="https://www.youtube.com/embed/link_yt" iframe'</b>
+        </p>
+        <iframe src="https://www.youtube.com/embed/FUD-HExh9ow"></iframe>
+        <p>
+          Podemos darle atributos como: <b>'frameborder="0/1"'</b> (Para darle
+          borde)
+        </p>
+        <p>
+          También tenemos los atributos predeterminados de youtube:
+          'allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+          gyroscope; picture-in-picture; web-share" allowfullscreen iframe'
+        </p>
+      </div>
+      <div class="enlaces__href">
+        <h3>Href</h3>
+        <p>
+          Este elemento nos permite referenciar un link en un texto o una línea
+          de codigo para determinadas funciones. Lo usamos con:
+          <b>'a href="link" a'</b>
+        </p>
+        <p>Por ejemplo, un link a mi instagram:</p>
+        <a href="https://www.instagram.com/icxd.rip/">Instagram</a>
+        <p>
+          Para que el link vaya hacia otra página usamos el atributo
+          <b>'target="_blank"</b>
+        </p>
+        <a>Instagram</a>
+      </div>
+      <div class="enlaces__id">
+        <h3>Id</h3>
+        <p>
+          Con el atributo <b>'id'</b> le damos un identificador único a algún
+          elemento del codigo. Al usarlo damos como atributo al elemento:
+          <b>'id="nombre"'</b>
+        </p>
+        <p>Para referir el id usamos <b>'a href="#nombre_id" a'</b></p>
+        <p>Para mencionarlo en css usamos <b>'#nombre_id'</b></p>
+      </div>
+      <div class="enlaces__class">
+        <h3>Class</h3>
+        <p>
+          Con el atributo <b>'class'</b> podemos, al igual que el id,
+          identificar algún elemento del codigo, con la diferencia de que este
+          nos permite darle un mismo identificador a varios elementos a la vez.
+        </p>
+        <p>Para mencionarlo en css usamos <b>'.nombre_class'</b></p>
+        <p>No podemos referir una clase en un link como con el id</p>
+      </div>
+      <div class="enlaces__img"></div>
+      <h3>Image</h3>
+      <p>
+        Podemos hacer que al dar un click en un imagen esta tenga un link, esto
+        lo hacemos anindando la etiqueta 'img' en la etiqueta 'a' que contiene
+        el link
+      </p>
+    </div>
+    <div class="contenedor__multimedia">
+      <h2>Multimedia</h2>
+      <p>
+        Podemos agregar imágenes locales (Dentro de la carpeta del archivo) o
+        referir un link de la web con 'img src="link"'
+      </p>
+      <p>
+        De la misma manera podemos agregar un video local o de la web con 'video
+        src="link_video"' (Al agregar videos de ruta local debemos agregar el
+        atributo <b>'controls'</b>)
+      </p>
+      <p>Algunos de los atributos que tienen estos elementos son:</p>
+      <ul>
+        <li>
+          'alt="texto"' (Texto alternativo, se muestra cuando la imagen no se
+          muestra.
+        </li>
+        <li>
+          'title="texto"' (Al pasar el mouse por encima de la imagen/video se
+          muestra el titulo)
+        </li>
+        <p>
+          También podemos agregar audios con <b>'audio src="audio_link"'</b> con
+          el atributo controls
+        </p>
+      </ul>
+    </div>
+    <div class="contenedor__tablas">
+      <h2>Tablas</h2>
+      <p>Para hacer una tabla usamos la etiqueta <b>'table'</b>.</p>
+      <p>Dentro del 'table' con <b>'tr'</b> definimos las filas verticales.</p>
+      <p>Dentro del 'tr' con <b>'td'</b> definimos las filas horizontales.</p>
+      <p>
+        También podemos darle propiedades a la tablas, para facilitar esto
+        tenemos las etiquetas <b>'thead'</b> y <b>'tbody'</b> para el respectivo
+        head y body de la tabla.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <td><b>Nombre</b></td>
+            <td><b>Apellido</b></td>
+            <td><b>Edad</b></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Yesid</td>
+            <td>Gomez</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>Alexandra</td>
+            <td>Gomez</td>
+            <td>47</td>
+          </tr>
+          <tr>
+            <td>Andres</td>
+            <td>Sierra</td>
+            <td>18</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Tenemos dos atributos para los elementos de la lista: colspan y rowspan.
+        Con estos le indicamos al elemento de la tabla que debe ocupar más de su
+        espacio original en una columna o una fila.
+      </p>
+      <p>Ejemplo de coldspan = "2"</p>
+      <table>
+        <tr>
+          <td colspan="2">1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+        </tr>
+      </table>
+      <p>Ejemplo de rowspan = "2"</p>
+      <table>
+        <tr>
+          <td rowspan="2">1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+        </tr>
+      </table>
+    </div>
+    <div class="contenedor__footer">
+      <h2>Footer</h2>
+      <p>
+        El footer es el pie de página, acá podemos poner si la pagina tiene o no
+        copyright, enlaces de contacto, feedback, redes sociales, etc. Lo usamos
+        con la etiqueta <b>'footer'</b>.
+      </p>
+      <p>Podemos usar dentro del footer, por ejemplo:</p>
+      <h4>Copyright - Todos los derechos reservados</h4>
+      <p>Siguenos en nuestras <b>redes</b></p>
+      <a href="link_redes">Instagram</a>
+      <a href="link_redes">Twitter</a>
+      <a href="link_redes">Facebook</a>
+    </div>
+    <div class="contenedor__contenido">
+      <h2 id="contenido">Contenido</h2>
+      <ul>
+        <li>Generalidades</li>
+        <li>Texto</li>
+        <li>Listas</li>
+        <li>Formulas / Input</li>
+        <li>Enlaces</li>
+        <li>Multimedia</li>
+        <li>Header y nav</li>
+        <li>Articulo</li>
+        <li>Tablas</li>
+        <li>Footer</li>
+        <li>Div</li>
+        <li>Span</li>
+        <li>Main</li>
+        <li>Aside</li>
+      </ul>
+    </div>
+    <div class="referencias">
+      <ul>
+        <li>https://developer.mozilla.org/es/</li>
+      </ul>
+    </div>
+    <footer class="contenedor__footer">
+      <h4>Copyright - Todos los derechos reservados</h4>
+      <p>Siguenos en nuestras <b>redes</b></p>
+      <a href="https://instagram.com/icxd.rip/">Instagram</a>
+      <a href="https://twitter.com">Twitter</a>
+      <a href="https://facebook.com">Facebook</a>
+    </footer>
+  </body>
+</html>

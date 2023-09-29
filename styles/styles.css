@@ -1,0 +1,158 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuentes */
+*{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* Variables */
+:root{
+    --primary-bg: rgb(227, 79, 38);
+    --secondary-bg: #EF652A;
+    --secondary-font: #FE6D04;
+
+    --white: #ffffff;
+    --black: #000000;
+}
+
+header{
+    height: 4rem;
+    width: 100vw;
+    min-width: 350px;
+    padding: 0 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--primary-bg);
+    color: var(--white);
+
+    & h1 {
+            font-size: 1.8rem;
+        }
+
+    & li{
+        list-style-type: none;
+    }
+
+    & a{
+        text-decoration: none;
+        font-size: 1.1rem;
+        color: var(--white);
+    }
+
+    & a:hover {
+        font-size: 1.15rem;
+        transition: .2s;
+    }
+}
+
+main{
+    height: 100%;
+    width: 100vw;
+    min-width: 350px;
+}
+
+.main__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80vh;
+    background-color: var(--secondary-bg);
+    color: var(--white);
+
+    & img{
+        width: 18rem;
+        margin: 2rem 0;
+    }
+
+    & div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+@media (width < 700px){
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .main__section{
+        & img{
+            width: 15rem;
+        }
+
+        & div {
+            margin: 0 .5rem 5rem .5rem;
+        }
+    }
+}
+
+
+
+.main__text-container{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    background-color: #1C322C;
+}
+.main__img-container{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+main img{
+    display: inline-block;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+.enlaces__iframe iframe{
+    width: 300px;
+    height: 180px;
+    border: none;
+    margin: 20px;
+}
+.contenedor__tablas table{
+    border-collapse: collapse;
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    border: 2px solid var(--color-principal);
+    text-align: center;
+}
+.contenedor__tablas thead{
+    background-color: var(--color-principal);
+    color: white;
+}
+.contenedor__tablas tbody{
+    background-color: rgb(230,230,230);
+}
+.contenedor__tablas tr, td{
+    border: 2px solid var(--color-principal);
+}
+.contenedor__header img{
+    width: 400px;
+}
+.contenedor__article img{
+    width: 400px;
+}
+
